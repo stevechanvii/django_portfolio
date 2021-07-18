@@ -81,6 +81,7 @@ DATABASES = {
         # 'USER': 'anvpkyrztdfnqb',
         # 'PASSWORD': 'aaaaaa',
         # 'HOST': 'localhost',
+        # danyangvii@gmail.com, a4
         'NAME': os.environ.get('DATABASE_NAME'),
         'USER': os.environ.get('USER'),
         'PASSWORD': os.environ.get('PASSWORD'),

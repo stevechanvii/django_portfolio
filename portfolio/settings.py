@@ -24,7 +24,7 @@ SECRET_KEY = '2jw6a#$^5&8x+7w=6d40re&dt)@-7)ul1(k_0#7$g&5_-v8@p='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dev-protfolio-django.herokuapp.com']
+ALLOWED_HOSTS = ['dev-protfolio-django.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         # 'NAME': 'portfoliodb',
-        # 'USER': 'anvpkyrztdfnqb',
+        # 'USER': 'postgres',
         # 'PASSWORD': 'aaaaaa',
         # 'HOST': 'localhost',
         # danyangvii@gmail.com, a4
